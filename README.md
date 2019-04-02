@@ -1,8 +1,6 @@
 # ASSERT
-Johns Hopkins University's system submission for ASVspoof 2019: ranked 3rd (3/50) in PA sub-challenge and 14th (14/52) in LA sub-challenge. Submitted to Interspeech 2019. 
- 
-This repository contains codes to reproduce the core results from our paper: 
-* 
+This repository contains codes to reproduce the core results from our paper (submitted to Interspeech 2019): 
+*  
 
 <p align="center">
  <img src="img/network.png" width="40%">
