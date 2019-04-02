@@ -26,16 +26,23 @@ pip install -r requirements.txt
 Make sure to read through the [ASVspoof 2019 webpage](http://www.asvspoof.org) and download the dataset.
 
 ## Baselines
-
+`./baseline/` contains code for the CQCC-GMM, LFCC-GMM, and i-vectors baselines. `./baseline/baseline_CM.m` is the official MATLAB script for CQCC-GMM and LFCC-GMM. Make sure to organize the dataset according to the comments within the script. To train the baselines, do 
+```
+./baseline_CM.sh
+```
 
 ## Features 
+`./features/` contains code for acoustic feature extraction. Follow `./features/run_feature.sh` stage by stage for acoustic feature extraction. Be sure to set up Kaldi and modify `./features/path.sh` to point to your own Kaldi directory. To extract features, do  
+```
+./run_feature.sh.sh
+```
 
 ## ASSERT 
-`./assert/main.py` contains the model training script, `./assert/model.py/` contains the hyperparameters for the models, the `./assert/src/` contains the model implementations. To start the model training, do
+`./assert/` contains the code for ASSERT. `./assert/main.py` contains the model training script and model hyperparameters, and `./assert/src/` contains model implementations. To train the models, do
 ```
 python main.py
 ```
-To trian the model on GPU, do 
+To trian the model on GPU (recommended), do 
 ```
 CUDA_VISIBLE_DEVICES=`free-gpu` python main.py
 ```
