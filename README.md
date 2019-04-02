@@ -13,7 +13,12 @@ We present JHU's system submission to the ASVspoof 2019 Challenge: Anti-Spoofing
 
 |   Model   | dev min-tDCF | dev EER (%) | eval min-tDCF | eval EER (%) | 
 | :-------: | :----------: | :---------: | :-----------: | :----------: |
-|   SENet   |  **0.709**   |  **0.709**  |   **0.694**   |  **0.910**   |   
+|   SENet   |  **0.709**   |  **0.709**  |   **0.694**   |  **0.910**   |  
+|   SENet   |  **0.709**   |  **0.709**  |   **0.694**   |  **0.910**   |  
+|   SENet   |  **0.709**   |  **0.709**  |   **0.694**   |  **0.910**   |  
+|   SENet   |  **0.709**   |  **0.709**  |   **0.694**   |  **0.910**   |  
+|   SENet   |  **0.709**   |  **0.709**  |   **0.694**   |  **0.910**   |  
+|   SENet   |  **0.709**   |  **0.709**  |   **0.694**   |  **0.910**   |  
 
 ## Dependencies
 This project uses Python 2.7. Before running the code, you have to install
