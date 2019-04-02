@@ -5,7 +5,7 @@ This repository contains codes to reproduce the core results from our paper:
 * 
 
 <p align="center">
- <img src="github_image/network.png" width="40%">
+ <img src="img/network.png" width="40%">
 </p>
 
 ## Abstract 
