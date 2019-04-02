@@ -9,6 +9,20 @@ This repository contains codes to reproduce the core results from our paper (sub
 ## Abstract 
 We present JHU's system submission to the ASVspoof 2019 Challenge: Anti-Spoofing with Squeeze-Excitation and Residual neTworks (ASSERT). Anti-spoofing has gathered more and more attention since the inauguration of the ASVspoof Challenges, and ASVspoof 2019 dedicates to address attacks from all three major types: text-to-speech, voice conversion, and replay. Built upon previous research work on Deep Neural Network (DNN), ASSERT is a pipeline for DNN-based approach to anti-spoofing. ASSERT has four components: feature engineering, DNN models, network optimization and system combination, where the DNN models are variants of squeeze-excitation and residual networks. We conducted an ablation study of the effectiveness of each component on the ASVspoof 2019 corpus, and experimental results showed that ASSERT obtained more than 93% and 17% relative improvements over the baseline systems in the two sub-challenges in ASVspooof 2019, ranking ASSERT one of the top performing systems. 
 
+## Single Model Benchmark Results
+Note: evaluation key is not released yet. We do not plan to release the pretrained models for Mean-Std ResNets.  
+
+|            Model            | PA dev min-tDCF | PA dev EER (%) | LA dev min-tDCF | LA dev EER (%) | 
+| :-------------------------: | :-------------: | :------------: | :-------------: | :------------: |
+|           SENet34           |   **0.01514**   |   **0.5751**   |     **0.0**     |     **0.0**    |  
+|           SENet50           |     0.01709     |     0.6317     |       0.0       |       0.0      |  
+|        Dilated ResNet       |     0.02377     |     0.7798     |       0.0       |       0.0      |
+| Attentive Filtering Network |     0.02096     |     0.7407     |       0.0       |       0.0      |
+|          CQCC-GMM           |     0.195       |     9.87       |       0.012     |       0.43     |  
+|          LFCC-GMM           |     0.255       |    11.96       |       0.066     |       2.71     |
+|       100-i-vectors         |     0.306       |    12.37       |       0.155     |       5.18     |
+|       200-i-vectors         |     0.322       |    12.52       |       0.121     |       4.12     |
+
 ## Dependencies
 This project uses Python 2.7. Before running the code, you have to install
 * [PyTorch 0.4](https://pytorch.org)
