@@ -21,6 +21,6 @@ pip install -r requirements.txt
 ## Getting Started 
 
 ## Authors 
-[Cheng-I Lai](jefflai108@gmail.com), [Nanxin Chen](http://myemacs.com), [Jesús Villalba](https://www.clsp.jhu.edu/faculty/jesus-villalba/), [Najim Dehak](https://engineering.jhu.edu/ece/faculty/najim-dehak/)
+Cheng-I Lai, [Nanxin Chen](http://myemacs.com), [Jesús Villalba](https://www.clsp.jhu.edu/faculty/jesus-villalba/), [Najim Dehak](https://engineering.jhu.edu/ece/faculty/najim-dehak/)
 
-If you encouter any problem, feel free to contact me. 
+If you encouter any problem, feel free to contact me.
