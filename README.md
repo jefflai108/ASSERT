@@ -20,7 +20,26 @@ The former 2 dependencies can be installed using pip by running
 pip install -r requirements.txt
 ```
 
-## Getting Started 
+## Getting Started
+`./assert/` contains the main source codes, `./baseline/` contains the code for CQCC-GMM, LFCC-GMM and i-vectors, and `./features/` contains acoustic feature extraction codes. 
+
+Make sure to read through the [ASVspoof 2019 webpage](http://www.asvspoof.org) and download the dataset.
+
+## Baselines
+
+
+## Features 
+
+## ASSERT 
+`./assert/main.py` contains the model training script, `./assert/model.py/` contains the hyperparameters for the models, the `./assert/src/` contains the model implementations. To start the model training, do
+```
+python main.py
+```
+To trian the model on GPU, do 
+```
+CUDA_VISIBLE_DEVICES=`free-gpu` python main.py
+```
+Experiments will be saved automatically by Sacred to `./assert/snapshots/`
 
 ## Authors 
 Cheng-I Lai, [Nanxin Chen](http://myemacs.com), [Jesús Villalba](https://www.clsp.jhu.edu/faculty/jesus-villalba/), [Najim Dehak](https://engineering.jhu.edu/ece/faculty/najim-dehak/)
