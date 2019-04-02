@@ -1,0 +1,17 @@
+# Library dependencies for the python code.  You need to install these with
+# `pip install -r requirements.txt` before you can run this.
+
+# core libraries 
+pytorch>=0.4 
+sacred
+numpy
+matplotlib
+
+# auxiliary 
+argparse
+random 
+os 
+warnings 
+collections
+shutil 
+
