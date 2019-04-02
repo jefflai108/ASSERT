@@ -25,7 +25,7 @@ Note: Evaluation key is not released yet, so we only present dev results below.
 |       200-i-vectors         |     0.322       |    12.52       |       0.121     |       4.12     |
 
 ## Download Pretrained Model Weights
-We included the pretrained model weights. We also do not plan to release the pretrained models for Mean-Std ResNets. 
+We included the pretrained model weights. We do not plan to release the pretrained models for Mean-Std ResNets. 
 
 *   **SENet34**: 
     `./pretrained/pa/senet34` and `./pretrained/la/senet34`
