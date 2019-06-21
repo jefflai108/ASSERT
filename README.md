@@ -1,5 +1,5 @@
 # ASSERT: Anti-Spoofing with Squeeze-Excitation and Residual neTworks
-This repository contains codes to reproduce the core results from our paper (submitted to Interspeech 2019): [ASSERT: Anti-Spoofing with Squeeze-Excitation and Residual neTworks](https://arxiv.org/pdf/1904.01120.pdf)  
+This repository contains codes to reproduce the core results from our Interspeech 2019 paper: [ASSERT: Anti-Spoofing with Squeeze-Excitation and Residual neTworks](https://arxiv.org/pdf/1904.01120.pdf)  
 
 <p align="center">
  <img src="img/network.png" width="40%">
