@@ -5,6 +5,7 @@ This repository contains codes to reproduce the core results from our Interspeec
  <img src="img/network.png" width="40%">
 </p>
 
+If you find the code useful, please cite
 ```
 @article{lai2019assert,
   title={ASSERT: Anti-Spoofing with Squeeze-Excitation and Residual neTworks},
