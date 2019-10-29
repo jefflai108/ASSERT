@@ -5,6 +5,15 @@ This repository contains codes to reproduce the core results from our Interspeec
  <img src="img/network.png" width="40%">
 </p>
 
+```
+@article{lai2019assert,
+  title={ASSERT: Anti-Spoofing with Squeeze-Excitation and Residual neTworks},
+  author={Lai, Cheng-I and Chen, Nanxin and Villalba, Jes{\'u}s and Dehak, Najim},
+  journal={arXiv preprint arXiv:1904.01120},
+  year={2019}
+}
+```
+
 ## Abstract 
 We present JHU's system submission to the ASVspoof 2019 Challenge: Anti-Spoofing with Squeeze-Excitation and Residual neTworks (ASSERT). Anti-spoofing has gathered more and more attention since the inauguration of the ASVspoof Challenges, and ASVspoof 2019 dedicates to address attacks from all three major types: text-to-speech, voice conversion, and replay. Built upon previous research work on Deep Neural Network (DNN), ASSERT is a pipeline for DNN-based approach to anti-spoofing. ASSERT has four components: feature engineering, DNN models, network optimization and system combination, where the DNN models are variants of squeeze-excitation and residual networks. We conducted an ablation study of the effectiveness of each component on the ASVspoof 2019 corpus, and experimental results showed that ASSERT obtained more than 93% and 17% relative improvements over the baseline systems in the two sub-challenges in ASVspooof 2019, ranking ASSERT one of the top performing systems. 
 
